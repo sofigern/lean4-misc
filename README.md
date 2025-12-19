@@ -20,14 +20,23 @@ To learn more about Curry-Howard isomorphism one can check these materials:
 Fundations of Lean4 Calculus of Constructions are similar to axioms desribed in [Kleene's Mathematical Logic](https://cdn.preterhuman.net/texts/math/Kleene%20%20Mathemathical%20logic%20scaned%20by%20YRB.pdf).
 
 1.a ⊢ A ⊃ (B ⊃ A)
+
 1.b ⊢ (A ⊃ B) ⊃ ((A ⊃ (B ⊃ Γ)) ⊃ (A ⊃ Γ))
+
 3.  ⊢ A ⊃ B ⊃ (A ∧ B)
+
 4.a ⊢ A ∧ B ⊃ A
+
 4.b ⊢ A ∧ B ⊃ B
+
 5.a ⊢ A ⊃ A ∨ B
+
 5.b ⊢ B ⊃ A ∨ B
+
 6.  ⊢ (A ⊃ Γ) ⊃ (B ⊃ Γ) ⊃ (A ∨ B ⊃ Γ)
+
 7.  ⊢ (A ⊃ B) ⊃ (A ⊃ ¬B) ⊃ ¬A
+
 8ᵒ. ⊢ ¬¬A ⊃ A
 
 The 8ᵒ. ⊢ ¬¬A ⊃ A with all other rules is the logical equivalent to the [Excluded Middle Law](https://en.wikipedia.org/wiki/Law_of_excluded_middle) (em ⊢ A ∨ ¬A) and it separates [Intuitionistic Logic](https://en.wikipedia.org/wiki/Intuitionistic_logic) from [Classical Logic](https://en.wikipedia.org/wiki/Classical_logic).
